@@ -1,7 +1,7 @@
 ﻿Add-Type -AssemblyName System.Speech
 Add-Type -assembly System.Windows.Forms
 
-$script_path	= "C:\Users\Ulyakhin_AA\Documents\PS ping"
+$script_path	= "C:\PS ping"
 $label_from_top = 10
 $voice			= New-Object System.Speech.Synthesis.SpeechSynthesizer
 $voice.Rate		= 5
